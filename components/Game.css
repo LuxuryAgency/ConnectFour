@@ -1,0 +1,35 @@
+
+.game {
+    display: inline-block;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: #00aaff;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .disc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .disc.red {
+    background-color: red;
+  }
+  
+  .disc.yellow {
+    background-color: yellow;
+  }
+  
